@@ -12,7 +12,7 @@
         <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
     </head>
     <body>
-        <header id="header" class="header d-flex align-items-center fixed-top">
+    <header id="header" class="header d-flex align-items-center fixed-top">
             <nav class="container d-flex align-items-center fixed-top">
                 <a href="/" class="logo d-flex align-items-center">
                     <img src="/assets/img/logo.svg" alt="logo">
@@ -31,8 +31,8 @@
                         
                     </div>
                     <ul>
-                        <li style="font-weight: 700; color: #557153;" class="active"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                        <li style="font-weight: 700; color: #557153;"><a href="/about"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a></li>
+                        <li style="font-weight: 700; color: #557153;"><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                        <li style="font-weight: 700; color: #557153;" class="active"><a href="/about"><i class="fa fa-info-circle" aria-hidden="true"></i> About</a></li>
                     </ul>
                 </div>
             </nav>
@@ -49,69 +49,69 @@
                 <h1>MEDICO SQUAD</h1>
                 <p>Squad yang terbentuk di Mata Kuliah Rekayasa Perangkat Lunak</p>
             </div>
-  
-            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
-              <div class="member">
-                <img src="/assets/img/nab.svg" class="img-fluid" alt="">
-                <h4>Aldila Nabila</h4>
-                <span>Designer</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/aldilanabila/"><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+
+            <div class="section-member">
+              <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+                <div class="member">
+                  <img src="/assets/img/nab.svg" class="img-fluid" alt="">
+                  <h4>Aldila Nabila</h4>
+                  <span>Designer</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/aldilanabila/"><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+                <div class="member">
+                  <img src="/assets/img/hana.svg" class="img-fluid" alt="">
+                  <h4>Hana Nurfalah</h4>
+                  <span>Designer</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.facebook.com/hana.nurfalah.9"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/hananrflhr/"><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+                <div class="member">
+                  <img src="/assets/img/bin.svg" class="img-fluid" alt="">
+                  <h4>M Bintang Priyono</h4>
+                  <span>Developer</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/bintaggram/"><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+                <div class="member">
+                  <img src="/assets/img/salma.svg" class="img-fluid" alt="">
+                  <h4>Salma Ayunda</h4>
+                  <span>Product Owner</span>
+                  <div class="social">
+                    <a href="https://twitter.com/sqlmeuu?t=MlAM7ckYbqBnlunaB7glqw&s=09"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100008400463719&mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/slmayn/"><i class="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/salma-ayunda-zahra-b2670b212"><i class="bi bi-linkedin"></i></a>
+                  </div>
                 </div>
               </div>
             </div>
-  
-            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
-              <div class="member">
-                <img src="/assets/img/hana.svg" class="img-fluid" alt="">
-                <h4>Hana Nurfalah</h4>
-                <span>Designer</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href="https://www.facebook.com/hana.nurfalah.9"><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/hananrflhr/"><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
-              <div class="member">
-                <img src="/assets/img/bin.svg" class="img-fluid" alt="">
-                <h4>M Bintang Priyono</h4>
-                <span>Developer</span>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/bintaggram/"><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-  
-            <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
-              <div class="member">
-                <img src="/assets/img/salma.svg" class="img-fluid" alt="">
-                <h4>Salma Ayunda</h4>
-                <span>Product Owner</span>
-                <div class="social">
-                  <a href="https://twitter.com/sqlmeuu?t=MlAM7ckYbqBnlunaB7glqw&s=09"><i class="bi bi-twitter"></i></a>
-                  <a href="https://www.facebook.com/profile.php?id=100008400463719&mibextid=ZbWKwL"><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/slmayn/"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/salma-ayunda-zahra-b2670b212"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-  
-        
-  
         </div>
       </section>
-            
         </main>
-                
-    </body>
+        @include('partials.footer')
+        <script src="https://code.jquery.com/jquery-3.6.2.js" integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4=" crossorigin="anonymous"></script>
+        <script src="/assets/js/script.js"></script>
+      </body>
 </html>

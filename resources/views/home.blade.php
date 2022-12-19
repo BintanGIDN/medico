@@ -94,42 +94,16 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-        <div class="herodp1">
-            <a href="/ocd">OCD</a>
+        <div class="container_dp" style="position:relative; margin-bottom:20px;" >
+            <a class="herodp dark" href="/ocd">OCD</a>
+            <a class="herodp light" href="/bipolar">BIPOLAR</a>
+            <a class="herodp dark" href="/anxiety">ANXIETY</a>
+            <a class="herodp light" href="/depression">DEPRESSION</a>
+            <a class="herodp light" href="/skizofrenia">SKIZOFRENIA</a>
+            <a class="herodp dark" href="/icad">ICAD</a>
+            <a class="herodp light" href="/sgd">SGD</a>
+            <a class="herodp dark" href="/ptsd">PTSD</a>
         </div>
-        <div class="herodp2">
-            <a href="/bipolar">BIPOLAR</a>
-        </div>
-        <div class="herodp3">
-            <a href="/depression">DEPRESSION</a>
-        </div>
-        <div class="herodp4">
-            <a href="/anxiety">ANXIETY</a>
-        </div>
-        <div class="herodp5">
-            <a href="/skizofrenia">SKIZOFRENIA</a>
-        </div>
-        <div class="herodp6">
-            <a href="/icad">ICAD</a>
-        </div>
-        <div class="herodp7">
-            <a href="/ptsd">PTSD</a>
-        </div>
-        <div class="herodp8">
-            <a href="/sgd">SGD</a>
-        </div>
-        
-        <footer class="footer" contenteditable="footer">
-            <div class="footer-content">
-                <p>FOOTER</p>
-            </div>
-        </footer>
-
-        <script
-        src="https://code.jquery.com/jquery-3.6.1.min.js"
-        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-        crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-        <script src="/assets/js/script.js"></script>
+        @include('partials.footer')
     </body>
 </html>
