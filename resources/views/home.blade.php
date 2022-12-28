@@ -95,14 +95,14 @@
             </div>
         </div>
         <div class="container_dp" style="position:relative; margin-bottom:20px;" >
-            <a class="herodp dark" href="/ocd">OCD</a>
-            <a class="herodp light" href="/bipolar">BIPOLAR</a>
-            <a class="herodp dark" href="/anxiety">ANXIETY</a>
-            <a class="herodp light" href="/depression">DEPRESSION</a>
-            <a class="herodp light" href="/skizofrenia">SKIZOFRENIA</a>
-            <a class="herodp dark" href="/icad">ICAD</a>
-            <a class="herodp light" href="/sgd">SGD</a>
-            <a class="herodp dark" href="/ptsd">PTSD</a>
+            <a class="herodp dark" href="/detail/ocd">OCD</a>
+            <a class="herodp light" href="/detail/bipolar">BIPOLAR</a>
+            <a class="herodp dark" href="/detail/anxiety">ANXIETY</a>
+            <a class="herodp light" href="/detail/depression">DEPRESSION</a>
+            <a class="herodp light" href="/detail/skizofrenia">SKIZOFRENIA</a>
+            <a class="herodp dark" href="/detail/icad">ICAD</a>
+            <a class="herodp light" href="/detail/sgd">SGD</a>
+            <a class="herodp dark" href="/detail/ptsd">PTSD</a>
         </div>
         @include('partials.footer')
     </body>

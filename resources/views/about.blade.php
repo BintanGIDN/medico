@@ -50,7 +50,7 @@
                 <p>Squad yang terbentuk di Mata Kuliah Rekayasa Perangkat Lunak</p>
             </div>
 
-            <div class="section-member">
+            <div class="section-member" style="margin: 0 auto; width: fit-content">
               <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
                 <div class="member">
                   <img src="/assets/img/nab.svg" class="img-fluid" alt="">
