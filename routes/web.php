@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,42 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
-
-Route::get('/ocd', function () {
-    return view('ocd');
-});
-
-Route::get('/bipolar', function () {
-    return view('bipolar');
-});
-
-Route::get('/depression', function () {
-    return view('depression');
-});
-
-Route::get('/anxiety', function () {
-    return view('anxiety');
-});
-
-Route::get('/skizofrenia', function () {
-    return view('skizofrenia');
-});
-
-Route::get('/icad', function () {
-    return view('icad');
-});
-
-Route::get('/ptsd', function () {
-    return view('ptsd');
-});
-
-Route::get('/sgd', function () {
-    return view('sgd');
-});
-
 Route::get('/about', function () {
     return view('about');
 });
@@ -57,3 +22,9 @@ Route::get('/', function () {
     return view('home');
 });
 
+
+Route::get("/detail/{slug}", function ($slug) {
+    return view($slug, [
+        "title" => Str::ucfirst($slug)
+    ]);
+});
